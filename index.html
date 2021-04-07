@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no initial-scale=1.0">
+    <meta name="description" content="E-Millenial Store is a hypothetical online store for gadgets. We have mobile phones, laptops, smartwatches and other gadgets.">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./Images/favicon.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Images/favicon.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Images/favicon.io/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>E-Millenial Store</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav nav-flex">
+            <a href="./index.html" class="logo nav-logo">
+                <!-- <img src="./Images/EMS.svg" alt="logo image"> -->
+                EGS
+            </a>
+            <ul class="nav-flex">
+                <li class="nav-li">
+                    <a href="#intro" class="nav-link">Intro</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#shop" class="nav-link">Shop</a>
+                </li>
+            </ul>
+            <button class="btn btn-primary nav-flex nav-btn">
+                <img src="./Images/cart.svg" class="cart-img" alt="cart image">
+                <span class="item-qty-no">0</span>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <div class="to-top">
+            <a href="#header" class="to-top-link">
+                <i class="fa fa-arrow-up" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="success">
+            <div class="success-container">
+                <div class="success-body-container">
+                    <div class="success-summary-container">
+                        <h1 class="success-msg">
+                            Thank you, 
+                            <span class="customer-name"></span>, 
+                            Your Order Has Been Received
+                        </h1>
+                        <img src="./Images/check.svg" alt="success image" class="success-img">
+                        <p class="msg-ref"></p>
+                    </div>
+                    <h2 class="summary-title">Summary</h2>
+                    <div class="table-container">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>S/N</th>
+                                    <th>Item</th>
+                                    <th>Quantity</th>
+                                </tr>
+                            </thead>
+                            <tbody class="summary-tbody">
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="success-btn-container btn-container">
+                        <button class="btn btn-primary ok-btn">Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-container">
+                <input type="checkbox" name="checkbox" class="checkbox" id="checkbox">
+                <div class="cart-body-container">
+                    <div class="table-container">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>S/N</th>
+                                    <th class="item-th">Item</th>
+                                    <th class="price-th">Price</th>
+                                    <th class="qty-th">Quantity</th>
+                                </tr>
+                            </thead>
+                            <tbody class="cart-tbody">
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="form-boy">
+                        <form action="" class="form">
+                            <input type="text" title="Name" name="name" class="form-input" id="name" placeholder="Your Name">
+                            <small class="error-txt"></small>
+                            <input type="email" title="Email" name="email" class="form-input" id="email" placeholder="Your Email">
+                            <small class="error-txt"></small>
+                            <input type="number" title="Phone number" name="number" class="form-input" id="phone-number"
+                            placeholder="Your Phone Number">
+                            <small class="error-txt"></small>
+                        </form>
+                    </div>
+                    <div class="total-amount-container">
+                        <h1 class="total-amount-txt">
+                            Total Amount to be Paid
+                        </h1>
+                        <p class="price-container">
+                            &#8358;<span class="total-price">0</span>
+                        </p>
+                    </div>
+                    <div class="cart-btn-container btn-container">
+                        <button class="btn cart-container-btn continue-btn btn-secondary-light">Continue Shopping</button>
+                        <button class="btn cart-container-btn btn-primary pay-btn">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="intro" id="intro">
+            <div class="container">
+                <div class="flex flex-intro">
+                    <div class="intro-title">
+                        <h1 class="title">
+                            THE <br> E-GADGETS <br> STORE
+                        </h1>
+                    </div>
+                    <div class="intro-img-container">
+                        <img src="./Images/gadgets.png" alt="heroImage" class="intro-img">
+                    </div>
+                </div>
+                <div class="btn-intro-box">
+                    <a href="#shop" class="btn btn-primary btn-intro">SHOP NOW</a>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-info-container">
+                    <p class="about-info">
+                        E-Millenial Store is a hypothetical online store for gadgets.
+                        We believe every 'Millenial' or 'Gen-Z' should have today.
+                        We've got mobile phones, laptops, smartwatches and other gadgets.
+                        Explore all our gadgets and choose the ones that suit you.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="shop" id="shop">
+            <div class="container">
+                <h2 class="heading">OUR GADGETS</h2>
+                <div class="grid">
+                    <div class="grid-box">
+                        <div class="card">
+                            <div class="product-box flex">
+                                <img src="./Images/product1.png" alt="SAMSUNG TV" class="product-img">
+                                <div class="price-box flex">
+                                    <p class="price-title"><u>Price</u></p>
+                                    <p class="price-tag">&#8358;<span class="price-value">750000</span></p>
+                                </div>
+                            </div>
+                            <h3 class="product-name">SAMSUNG TV</h3>
+                            <button class="btn btn-primary btn-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="grid-box">
+                        <div class="card">
+                            <div class="product-box flex">
+                                <img src="./Images/product2.png" alt="PIXEL 4a" class="product-img">
+                                <div class="price-box flex">
+                                    <p class="price-title"><u>Price</u></p>
+                                    <p class="price-tag">&#8358;<span class="price-value">130000</span></p>
+                                </div>
+                            </div>
+                            <h3 class="product-name">PIXEL 4a</h3>
+                            <button class="btn btn-primary btn-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="grid-box">
+                        <div class="card">
+                            <div class="product-box flex">
+                                <img src="./Images/ps5.jpg" alt="PS 5" class="product-img">
+                                <div class="price-box flex">
+                                    <p class="price-title"><u>Price</u></p>
+                                    <p class="price-tag">&#8358;<span class="price-value">250000</span></p>
+                                </div>
+                            </div>
+                            <h3 class="product-name">PS 5</h3>
+                            <button class="btn btn-primary btn-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="grid-box">
+                        <div class="card">
+                            <div class="product-box flex">
+                                <img src="./Images/macbook.jpg" alt="MACBOOK AIR " class="product-img">
+                                <div class="price-box flex">
+                                    <p class="price-title"><u>Price</u></p>
+                                    <p class="price-tag">&#8358;<span class="price-value">500000</span></p>
+                                </div>
+                            </div>
+                            <h3 class="product-name">MACBOOK AIR </h3>
+                            <button class="btn btn-primary btn-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="grid-box">
+                        <div class="card">
+                            <div class="product-box flex">
+                                <img src="./Images/apple watch.jpg" alt="APPLE WATCH" class="product-img">
+                                <div class="price-box flex">
+                                    <p class="price-title"><u>Price</u></p>
+                                    <p class="price-tag">&#8358;<span class="price-value">95000</span></p>
+                                </div>
+                            </div>
+                            <h3 class="product-name">APPLE WATCH</h3>
+                            <button class="btn btn-primary btn-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="grid-box">
+                        <div class="card">
+                            <div class="product-box flex">
+                                <img src="./Images/air pods.jpg" alt="AIR PODS" class="product-img">
+                                <div class="price-box flex">
+                                    <p class="price-title"><u>Price</u></p>
+                                    <p class="price-tag">&#8358;<span class="price-value">70000</span></p>
+                                </div>
+                            </div>
+                            <h3 class="product-name">AIR PODS</h3>
+                            <button class="btn btn-primary btn-cart">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="flex">
+                <div class="footer-logo-container">
+                    <a href="./index.html" class="logo footer-logo">
+                        <!-- <img src="./Images/EMS.svg" alt="logo image"> -->
+                        EGS
+                    </a>
+                </div>
+                <div class="footer-text-container">
+                    <p class="footer-text">Designed and Crafted by a Frontend Ninja</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
