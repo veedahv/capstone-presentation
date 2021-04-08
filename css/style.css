@@ -2,14 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap');
 
 :root {
-    /* --primary: #ff7a00; */
     --primary: #ff5151;
-    /* --primary-light: #ff9a3d; */
-    --primary-light: #ff5151da;
-    /* --secondary: #ffcd9e; */
+    --primary-light: #ff515196;
     --secondary: #ff5151;
-    /* --secondary-light: #ffe9d6; */
-    --secondary-light: #ff5151da;
+    --secondary-light: #ff515196;
     --red: #ff0000;
     --dark: #000000;
     --white: #ffffff;
@@ -261,6 +257,18 @@ td {
     width: 100%;
     background-color: var(--secondary-light);
     border: 1px solid rgba(0, 0, 0, .7);
+}
+.form-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--dark);
+    /* opacity: 1; Firefox */
+}
+  
+.form-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--dark);
+}
+
+.form-input::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--dark);
 }
 .error-txt {
     display: none;

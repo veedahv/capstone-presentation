@@ -33,12 +33,12 @@ const checkCartQty = () => {
 }
 // Add items to cart
 const addToCart = (btn) => {
-    btn.classList.replace('btn-primary', 'btn-secondary');
+    btn.classList.replace('btn-primary', 'btn-secondary-light');
     btn.textContent = 'REMOVE FROM CART';
 }
 // Remove items from cart
 const removeToCart = (btn) => {
-    btn.classList.replace('btn-secondary', 'btn-primary');
+    btn.classList.replace('btn-secondary-light', 'btn-primary');
     btn.textContent = 'ADD TO CART';
 }
 const checkSn = () => {
